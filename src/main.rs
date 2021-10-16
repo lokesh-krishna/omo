@@ -91,7 +91,7 @@ fn reset() {
 }
 
 fn print(time: String) {
-    println!(time);
+    println!("{}", time);
 }
 
 fn write(time: i64) {
